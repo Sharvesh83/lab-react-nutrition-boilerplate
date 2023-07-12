@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-left {
+  margin-right: 10px;
+}
+
+.image {
+  width: 64px;
+  height: 64px;
+}
+
+.media-content {
+  flex: 1;
+}
+
+.content {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 50px;
+  text-align: center;
+}
+
+.added-items {
+  margin-top: 10px;
+}
+
+.added-items p {
+  margin-bottom: 5px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.button {
+  flex-shrink: 0;
+}
+
+.button.is-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.button.is-primary:hover {
+  background-color: #0069d9;
+}
+
+.button.is-primary:active {
+  background-color: #005cbf;
+}
+
+.button.is-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.button.is-danger:hover {
+  background-color: #c82333;
+}
+
+.button.is-danger:active {
+  background-color: #bd2130;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.food-image {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+}
